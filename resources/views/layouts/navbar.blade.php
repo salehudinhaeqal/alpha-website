@@ -13,12 +13,15 @@
 
     {{-- Link Font Awesome untuk ikon --}}
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    {{-- Link CSS khusus untuk navbar --}}
+    <link rel="stylesheet" href="{{ asset('css/navbar.css') }}">
     
     {{-- Slot untuk file CSS tambahan dari setiap halaman --}}
     @stack('styles')
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg navbar-navy">
         <div class="container-fluid">
             {{-- Logo dijadikan link ke halaman utama --}}
             <a class="navbar-brand" href="/">
