@@ -15,10 +15,10 @@
     <div id="carouselExample" class="carousel slide">
     <div class="carousel-inner">
         <div class="carousel-item active">
-        <img src="images/Telco Tower.png" class="d-block w-100" alt="Telecommunication Tower">
+        <img src="images/telco-tower.png" class="d-block w-100" alt="Telecommunication Tower">
         </div>
         <div class="carousel-item">
-        <img src="images/Power Telco.png" class="d-block w-100" alt="Power Telecommunication">
+        <img src="images/power-telco.png" class="d-block w-100" alt="Power Telecommunication">
         </div>
         <div class="carousel-item">
         <img src="images/Maintenance.png" class="d-block w-100" alt="...">

@@ -22,7 +22,7 @@
         <div class="container-fluid">
             {{-- Logo dijadikan link ke halaman utama --}}
             <a class="navbar-brand" href="/">
-                <img src="{{ asset('images/Alpha Linear logo.png') }}" alt="Alpha Linear Logo" width="80" height="80" class="d-inline-block align-text-top">
+                <img src="{{ asset('images/alpha-linear-logo.png') }}" alt="Alpha Linear Logo" width="80" height="80" class="d-inline-block align-text-top">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
