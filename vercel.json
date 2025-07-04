@@ -8,7 +8,7 @@
         { "src": "/build/(.*)", "dest": "/public/build/" },
         { "src": "/(.*)", "dest": "/api/index.php" }
     ],
-    "installCommand": "yum install -y openssl10-devel",
+    "installCommand": "yum install -y compat-openssl10",
     "public": true,
     "buildCommand": "vite build",
     "outputDirectory": "public",
