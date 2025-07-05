@@ -33,22 +33,22 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link {{ Request::is('/') ? 'active' : '' }}" aria-current="page" href="/">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
+                        <a class="nav-link {{ Request::is('about') ? 'active' : '' }}" aria-current="page" href="/about">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Service</a>
+                        <a class="nav-link {{ Request::is('service') ? 'active' : '' }}" aria-current="page" href="/service">Service</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">News/Activity</a>
+                        <a class="nav-link {{ Request::is('#') ? 'active' : '' }}" aria-current="page" href="#">News/Activity</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Career</a>
+                        <a class="nav-link {{ Request::is('#') ? 'active' : '' }}" aria-current="page" href="#">Career</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
+                        <a class="nav-link {{ Request::is('#') ? 'active' : '' }}" aria-current="page" href="#">Contact</a>
                     </li>
                 </ul>
                 <form class="d-flex" role="search">
