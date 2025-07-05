@@ -24,7 +24,7 @@
     background-color: #198754; /* Warna hijau standar Bootstrap */
     color: #ffffff;      
     font-weight: bold;
-    border-radius: 6px;      /* Membuat sudut sedikit melengkung */
+    border-radius: 10px;      /* Membuat sudut sedikit melengkung */
     padding-left: 12px;      /* Menambah sedikit jarak di kiri */
     padding-right: 12px;     /* Menambah sedikit jarak di kanan */
 }
