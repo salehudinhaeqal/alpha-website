@@ -15,13 +15,13 @@
     <div id="carouselExample" class="carousel slide">
     <div class="carousel-inner">
         <div class="carousel-item active">
-        <img src="images/telco-tower.png" class="d-block w-100" alt="Telecommunication Tower">
+        <img src="/images/telco-tower.png" class="d-block w-100" alt="Telecommunication Tower">
         </div>
         <div class="carousel-item">
-        <img src="images/power-telco.png" class="d-block w-100" alt="Power Telecommunication">
+        <img src="/images/power-telco.png" class="d-block w-100" alt="Power Telecommunication">
         </div>
         <div class="carousel-item">
-        <img src="images/Maintenance.png" class="d-block w-100" alt="...">
+        <img src="/images/Maintenance.png" class="d-block w-100" alt="Maintenance Service">
         </div>
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
