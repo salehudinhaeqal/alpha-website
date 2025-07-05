@@ -5,8 +5,13 @@
         "api/index.php": { "runtime": "vercel-php@0.7.1" }
     },
     "routes": [
-        { "handle": "filesystem" },
-        { "src": "/(.*)", "dest": "/api/index.php" }
+        {
+            "src": "/(images|css|js|build|fonts|favicon\\.ico)(.*)"
+        },
+        {
+            "src": "/(.*)",
+            "dest": "/api/index.php"
+        }
     ],
     "buildCommand": "vite build",
     "outputDirectory": "public",
