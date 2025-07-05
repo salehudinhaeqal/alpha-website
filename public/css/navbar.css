@@ -16,7 +16,7 @@
 
 /* (Opsional) Mengubah warna link saat kursor di atasnya */
 .navbar-navy .nav-link:hover {
-    color: #dddddd;
+    color: #33bc26;
 }
 
 /* Memberi gaya khusus untuk link navbar yang sedang aktif */
