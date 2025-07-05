@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 
     {{-- Link CSS khusus untuk navbar --}}
-    <link rel="stylesheet" href="{{ asset('css/navbar.css') }}">
+    <link rel="stylesheet" href="/css/navbar.css">
     
     {{-- Slot untuk file CSS tambahan dari setiap halaman --}}
     @stack('styles')
