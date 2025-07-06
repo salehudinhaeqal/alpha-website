@@ -5,7 +5,7 @@
 @section('content')
 
 {{-- 1. HERO SECTION BARU DENGAN BACKGROUND ABU-ABU --}}
-<div class="px-4 py-5 text-center bg-light">
+<div class="px-4 py-5 text-center bg-light" data-aos="fade-in">
     <h1 class="display-5 fw-bold">Hubungi Kami</h1>
     <p class="lead text-muted col-lg-8 mx-auto">
         Kami siap membantu Anda. Jangan ragu untuk menghubungi kami melalui informasi di bawah atau kirimkan pesan langsung melalui formulir.
@@ -16,7 +16,7 @@
     <div class="row g-5">
 
         {{-- Kolom Kiri: Informasi Kontak & Peta --}}
-        <div class="col-lg-5">
+        <div class="col-lg-5" data-aos="fade-right" data-aos-delay="200">
             {{-- 2. INFORMASI KONTAK DALAM CARD --}}
             <div class="card shadow-sm mb-4">
                 <div class="card-body p-4">
@@ -60,7 +60,7 @@
         </div>
 
         {{-- Kolom Kanan: Formulir Kontak --}}
-        <div class="col-lg-7">
+        <div class="col-lg-7" data-aos="fade-left" data-aos-delay="300">
             {{-- 3. FORMULIR DENGAN GAYA YANG DISESUAIKAN --}}
             <div class="card shadow-sm">
                 <div class="card-body p-4">

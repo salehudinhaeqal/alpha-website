@@ -4,8 +4,8 @@
 
 @section('content')
 
-{{-- 1. HERO SECTION BARU DENGAN BACKGROUND ABU-ABU --}}
-<div class="px-4 py-5 text-center bg-light">
+{{-- 1. HERO SECTION DENGAN ANIMASI --}}
+<div class="px-4 py-5 text-center bg-light" data-aos="fade-in">
     <h1 class="display-5 fw-bold">Layanan Profesional Kami</h1>
     <p class="lead text-muted col-lg-8 mx-auto">
         Jelajahi solusi lengkap yang kami tawarkan untuk memastikan infrastruktur jaringan telekomunikasi Anda berjalan optimal, efisien, dan andal.
@@ -18,7 +18,7 @@
     <div class="row g-4">
 
         {{-- Kolom 1: Telecommunication Installation --}}
-        <div class="col-lg-4 col-md-6">
+        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
             <div class="card h-100 shadow-sm">
                 <div class="card-body text-center p-4">
                     <i class="bi bi-broadcast-pin fs-1 text-primary mb-3"></i>
@@ -37,7 +37,7 @@
         </div>
 
         {{-- Kolom 2: Power Service --}}
-        <div class="col-lg-4 col-md-6">
+        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
             <div class="card h-100 shadow-sm">
                 <div class="card-body text-center p-4">
                     <i class="bi bi-lightning-charge-fill fs-1 text-primary mb-3"></i>
@@ -56,7 +56,7 @@
         </div>
 
         {{-- Kolom 3: Maintenance Service --}}
-        <div class="col-lg-4 col-md-6">
+        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
             <div class="card h-100 shadow-sm">
                 <div class="card-body text-center p-4">
                     <i class="bi bi-tools fs-1 text-primary mb-3"></i>
@@ -76,7 +76,7 @@
     </div>
 
     {{-- Bagian Call to Action --}}
-    <div class="text-center mt-5 p-4 rounded cta-gradient">
+    <div class="text-center mt-5 p-4 rounded cta-gradient" data-aos="fade-up" data-aos-delay="400">
         <h2>Siap Meningkatkan Jaringan Anda?</h2>
         <p class="lead">Diskusikan kebutuhan proyek Anda dengan tim ahli kami untuk mendapatkan solusi yang paling tepat dan efisien.</p>
         <a href="/contact" class="btn btn-light btn-lg fw-bold">Hubungi Kami</a>

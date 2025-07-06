@@ -6,9 +6,9 @@
 
 {{-- 1. HERO SECTION BARU --}}
 <div class="px-4 py-5 text-center bg-light">
-    <h1 class="display-5 fw-bold">Tentang Alpha Linear</h1>
+    <h1 class="display-5 fw-bold" data-aos="fade-down">Tentang Alpha Linear</h1>
     <div class="col-lg-8 mx-auto">
-        <p class="lead mb-4 text-muted">
+        <p class="lead mb-4 text-muted" data-aos="fade-up" data-aos-delay="100">
             Kami adalah mitra terpercaya Anda dalam industri telekomunikasi dan solusi jaringan. Berbekal pengalaman mendalam, kami berdedikasi untuk menyediakan layanan inovatif yang memastikan efisiensi operasional dan keandalan infrastruktur jaringan bagi setiap klien kami.
         </p>
     </div>
@@ -17,7 +17,7 @@
 <div class="container py-5">
     {{-- 2. MISI & VISI DALAM CARD --}}
     <div class="row g-4 mb-5">
-        <div class="col-md-6 d-flex">
+        <div class="col-md-6 d-flex" data-aos="fade-up" data-aos-delay="200">
             <div class="card shadow-sm w-100">
                 <div class="card-body p-4">
                     <h3 class="card-title text-primary">Misi Kami</h3>
@@ -25,7 +25,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-md-6 d-flex">
+        <div class="col-md-6 d-flex" data-aos="fade-up" data-aos-delay="300">
             <div class="card shadow-sm w-100">
                 <div class="card-body p-4">
                     <h3 class="card-title text-primary">Visi Kami</h3>
@@ -36,13 +36,13 @@
     </div>
 
     {{-- 3. MENGAPA MEMILIH KAMI DENGAN IKON --}}
-    <div class="text-center">
+    <div class="text-center" data-aos="fade-up">
         <h2 class="fw-bold">Mengapa Memilih Kami?</h2>
         <p class="lead text-muted mb-5">Kemitraan yang kuat dibangun di atas kepercayaan dan hasil yang nyata.</p>
     </div>
 
     <div class="row g-4">
-        <div class="col-md-6">
+        <div class="col-md-6" data-aos="fade-up" data-aos-delay="200">
             <div class="d-flex">
                 <i class="bi bi-diagram-3-fill fs-2 text-success me-3"></i>
                 <div>
@@ -51,7 +51,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-md-6">
+        <div class="col-md-6" data-aos="fade-up" data-aos-delay="300">
             <div class="d-flex">
                 <i class="bi bi-graph-up-arrow fs-2 text-success me-3"></i>
                 <div>
@@ -60,7 +60,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-md-6">
+        <div class="col-md-6" data-aos="fade-up" data-aos-delay="200">
             <div class="d-flex">
                 <i class="bi bi-lightbulb-fill fs-2 text-success me-3"></i>
                 <div>
@@ -69,7 +69,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-md-6">
+        <div class="col-md-6" data-aos="fade-up" data-aos-delay="300">
             <div class="d-flex">
                 <i class="bi bi-people-fill fs-2 text-success me-3"></i>
                 <div>
@@ -81,7 +81,7 @@
     </div>
 
     {{-- 4. BAGIAN CALL TO ACTION --}}
-    <div class="text-center mt-5 p-4 rounded cta-gradient">
+    <div class="text-center mt-5 p-4 rounded cta-gradient" data-aos="fade-in" data-aos-duration="1000">
         <h2>Siap Meningkatkan Jaringan Anda?</h2>
         <p class="lead">Diskusikan kebutuhan proyek Anda dengan tim ahli kami untuk mendapatkan solusi yang paling tepat dan efisien.</p>
         <a href="/contact" class="btn btn-light btn-lg fw-bold">Hubungi Kami</a>
