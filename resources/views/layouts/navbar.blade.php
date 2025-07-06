@@ -25,7 +25,7 @@
         <div class="container-fluid">
             {{-- Logo dijadikan link ke halaman utama --}}
             <a class="navbar-brand" href="/">
-                <img src="/images/alpha-linear-logo.png" alt="Alpha Linear Logo" width="80" height="80" class="d-inline-block align-text-top">
+                <img src="/images/alpha-linear-logo.png" alt="Alpha Linear Logo" width="100" height="100" class="d-inline-block align-text-top">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -48,7 +48,7 @@
                         <a class="nav-link {{ Request::is('#') ? 'active' : '' }}" aria-current="page" href="#">Career</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link {{ Request::is('#') ? 'active' : '' }}" aria-current="page" href="#">Contact</a>
+                        <a class="nav-link {{ Request::is('contact') ? 'active' : '' }}" aria-current="page" href="/contact">Contact</a>
                     </li>
                 </ul>
                 <form class="d-flex" role="search">
