@@ -17,6 +17,12 @@
     {{-- Link CSS khusus untuk navbar --}}
     <link rel="stylesheet" href="/css/navbar.css">
     
+    {{-- TAMBAHKAN CSS UNTUK ANIMASI (AOS) --}}
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    @stack('styles')
+</head>
+    
     {{-- Slot untuk file CSS tambahan dari setiap halaman --}}
     @stack('styles')
 </head>
@@ -68,5 +74,10 @@
 
     {{-- Slot untuk file JS tambahan dari setiap halaman --}}
     @stack('scripts')
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>
