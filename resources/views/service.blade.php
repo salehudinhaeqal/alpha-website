@@ -78,7 +78,7 @@
     <div class="text-center mt-5 p-4 bg-light rounded">
         <h2>Siap Meningkatkan Jaringan Anda?</h2>
         <p class="lead">Diskusikan kebutuhan proyek Anda dengan tim ahli kami untuk mendapatkan solusi yang paling tepat dan efisien.</p>
-        <a href="#" class="btn btn-primary btn-lg">Hubungi Kami</a>
+        <a href="/contact" class="btn btn-primary btn-lg">Hubungi Kami</a>
     </div>
 
 </div>
