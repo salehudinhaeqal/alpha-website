@@ -1,5 +1,3 @@
-{{-- File: resources/views/contact.blade.php --}}
-
 @extends('layouts.navbar')
 
 @section('title', 'Hubungi Kami - Alpha Linear')
@@ -59,23 +57,37 @@
         {{-- Kolom Kanan: Formulir Kontak --}}
         <div class="col-lg-7">
             <h3 class="mb-4">Kirimkan Pesan</h3>
-            {{-- Form action perlu diatur sesuai dengan backend Anda --}}
-            <form action="#" method="POST" class="shadow-sm p-4 rounded bg-light">
+
+            {{-- Blok untuk menampilkan notifikasi sukses --}}
+            @if(session('success'))
+                <div class="alert alert-success">
+                    {{ session('success') }}
+                </div>
+            @endif
+
+            {{-- Tag form yang sudah diupdate --}}
+            <form action="{{ route('contact.send') }}" method="POST" class="shadow-sm p-4 rounded bg-light">
+                {{-- Token Keamanan Laravel (Wajib) --}}
+                @csrf
                 <div class="mb-3">
                     <label for="name" class="form-label">Nama Lengkap</label>
-                    <input type="text" class="form-control" id="name" required>
+                    {{-- Menambahkan atribut 'name' --}}
+                    <input type="text" class="form-control" id="name" name="name" required>
                 </div>
                 <div class="mb-3">
                     <label for="email" class="form-label">Alamat Email</label>
-                    <input type="email" class="form-control" id="email" required>
+                    {{-- Menambahkan atribut 'name' --}}
+                    <input type="email" class="form-control" id="email" name="email" required>
                 </div>
                 <div class="mb-3">
-                    <label for="subject" class="form-label">Subjek</p>
-                    <input type="text" class="form-control" id="subject" required>
+                    <label for="subject" class="form-label">Subjek</label>
+                    {{-- Menambahkan atribut 'name' --}}
+                    <input type="text" class="form-control" id="subject" name="subject" required>
                 </div>
                 <div class="mb-3">
                     <label for="message" class="form-label">Pesan Anda</label>
-                    <textarea class="form-control" id="message" rows="5" required></textarea>
+                    {{-- Menambahkan atribut 'name' --}}
+                    <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
                 </div>
                 <button type="submit" class="btn btn-primary w-100 btn-lg">Kirim Pesan</button>
             </form>
