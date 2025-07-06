@@ -12,15 +12,16 @@
     </p>
 </div>
 
+
 <div class="container py-5">
-    {{-- Baris Layanan --}}
+    {{-- Baris Layanan dengan 4 Kolom --}}
     <div class="row g-4">
         {{-- Kolom 1: Telecommunication Installation --}}
-        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+        <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="100">
             <div class="card h-100 shadow-sm">
-                <div class="card-body text-center p-4">
+                <div class="card-body text-center p-4 d-flex flex-column">
                     <i class="bi bi-broadcast-pin fs-1 text-primary mb-3"></i>
-                    <h3 class="card-title h4">Telecommunication Installation</h3>
+                    <h3 class="card-title h4 card-title-height">Telecommunication Installation</h3>
                     <p class="card-text text-muted">
                         Kami menyediakan layanan instalasi infrastruktur telekomunikasi yang presisi dan andal, mulai dari pembangunan situs baru hingga peningkatan kapasitas jaringan yang sudah ada.
                     </p>
@@ -28,45 +29,60 @@
                         <li><i class="bi bi-check-circle-fill text-success me-2"></i>Pemasangan Infrastruktur BTS</li>
                         <li><i class="bi bi-check-circle-fill text-success me-2"></i>Solusi Perawatan Preventif</li>
                         <li><i class="bi bi-check-circle-fill text-success me-2"></i>Layanan Perbaikan Korektif</li>
-                        <li><i class="bi bi-check-circle-fill text-success me-2"></i>Optimalisasi & Peningkatan Jaringan</li>
                     </ul>
                 </div>
             </div>
         </div>
 
         {{-- Kolom 2: Power Service --}}
-        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+        <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="200">
             <div class="card h-100 shadow-sm">
-                 <div class="card-body text-center p-4">
+                 <div class="card-body text-center p-4 d-flex flex-column">
                     <i class="bi bi-lightning-charge-fill fs-1 text-primary mb-3"></i>
-                    <h3 class="card-title h4">Power Service</h3>
+                    <h3 class="card-title h4 card-title-height">Power Service</h3>
                     <p class="card-text text-muted">
-                        Fokus kami adalah menyediakan solusi energi yang komprehensif, termasuk energi terbarukan, untuk menekan biaya operasional dan memastikan catu daya yang stabil untuk semua infrastruktur.
+                        Solusi energi komprehensif, termasuk energi terbarukan, untuk menekan biaya operasional dan memastikan catu daya stabil.
                     </p>
                     <ul class="list-unstyled text-start mt-3">
                         <li><i class="bi bi-check-circle-fill text-success me-2"></i>Implementasi Panel Surya</li>
-                        <li><i class="bi bi-check-circle-fill text-success me-2"></i>Sistem Manajemen Baterai</li>
+                        <li><i class="bi bi-check-circle-fill text-success me-2"></i>Manajemen Baterai & Daya</li>
                         <li><i class="bi bi-check-circle-fill text-success me-2"></i>Audit & Optimalisasi Energi</li>
-                        <li><i class="bi bi-check-circle-fill text-success me-2"></i>Penyediaan Catu Daya Cadangan</li>
                     </ul>
                 </div>
             </div>
         </div>
 
         {{-- Kolom 3: Maintenance Service --}}
-        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+        <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="300">
             <div class="card h-100 shadow-sm">
-                <div class="card-body text-center p-4">
+                <div class="card-body text-center p-4 d-flex flex-column">
                     <i class="bi bi-tools fs-1 text-primary mb-3"></i>
-                    <h3 class="card-title h4">Maintenance Service</h3>
+                    <h3 class="card-title h4 card-title-height">Maintenance Service</h3>
                     <p class="card-text text-muted">
-                        Layanan perawatan kami menjamin keandalan dan efisiensi jaringan Anda. Kami meminimalkan downtime dan memaksimalkan performa melalui pemantauan proaktif dan perbaikan cepat.
+                        Layanan perawatan proaktif 24/7 untuk menjamin keandalan jaringan, meminimalkan downtime, dan memaksimalkan performa.
                     </p>
                     <ul class="list-unstyled text-start mt-3">
                         <li><i class="bi bi-check-circle-fill text-success me-2"></i>Pemantauan Jaringan 24/7</li>
                         <li><i class="bi bi-check-circle-fill text-success me-2"></i>Inspeksi Perangkat Rutin</li>
                         <li><i class="bi bi-check-circle-fill text-success me-2"></i>Manajemen Suku Cadang</li>
-                        <li><i class="bi bi-check-circle-fill text-success me-2"></i>Laporan Kinerja & Analisis</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        {{-- Kolom 4: Network Optimization --}}
+        <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="400">
+            <div class="card h-100 shadow-sm">
+                <div class="card-body text-center p-4 d-flex flex-column">
+                    <i class="bi bi-speedometer2 fs-1 text-primary mb-3"></i>
+                    <h3 class="card-title h4 card-title-height">Network Optimization</h3>
+                    <p class="card-text text-muted">
+                        Analisis mendalam dan penyesuaian jaringan untuk meningkatkan kecepatan, mengurangi latensi, dan memaksimalkan throughput.
+                    </p>
+                    <ul class="list-unstyled text-start mt-3">
+                        <li><i class="bi bi-check-circle-fill text-success me-2"></i>Analisis Spektrum & Interferensi</li>
+                        <li><i class="bi bi-check-circle-fill text-success me-2"></i>Drive Test & Benchmarking</li>
+                        <li><i class="bi bi-check-circle-fill text-success me-2"></i>Optimalisasi Parameter Jaringan</li>
                     </ul>
                 </div>
             </div>
@@ -74,7 +90,7 @@
     </div>
 </div>
 
-{{-- BAGIAN BARU 1: PROSES KERJA KAMI --}}
+{{-- BAGIAN PROSES KERJA KAMI --}}
 <div class="bg-light">
     <div class="container py-5">
         <div class="text-center mb-5">
@@ -88,7 +104,7 @@
                 <p class="text-muted">Kami menganalisis kebutuhan unik Anda untuk merancang solusi yang paling efektif.</p>
             </div>
             <div class="col-md-3" data-aos="fade-up" data-aos-delay="300">
-                <i class="bi-clipboard-check-fill fs-1 text-primary mb-3"></i>
+                <i class="bi bi-clipboard-check-fill fs-1 text-primary mb-3"></i>
                 <h4 class="fw-bold">2. Perencanaan</h4>
                 <p class="text-muted">Desain teknis dan jadwal implementasi yang matang kami siapkan untuk efisiensi proyek.</p>
             </div>
@@ -106,7 +122,7 @@
     </div>
 </div>
 
-{{-- BAGIAN BARU 2: FAQ (FREQUENTLY ASKED QUESTIONS) --}}
+{{-- BAGIAN FAQ (FREQUENTLY ASKED QUESTIONS) --}}
 <div class="container py-5">
     <div class="text-center mb-5">
         <h2 class="fw-bold" data-aos="fade-up">Frequently Asked Questions</h2>
