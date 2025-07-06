@@ -1,18 +1,19 @@
-{{-- File: resources/views/service.blade.php --}}
-
 @extends('layouts.navbar')
 
 @section('title', 'Layanan Kami - Alpha Linear')
 
 @section('content')
+
+{{-- 1. HERO SECTION BARU DENGAN BACKGROUND ABU-ABU --}}
+<div class="px-4 py-5 text-center bg-light">
+    <h1 class="display-5 fw-bold">Layanan Profesional Kami</h1>
+    <p class="lead text-muted col-lg-8 mx-auto">
+        Jelajahi solusi lengkap yang kami tawarkan untuk memastikan infrastruktur jaringan telekomunikasi Anda berjalan optimal, efisien, dan andal.
+    </p>
+</div>
+
+
 <div class="container py-5">
-
-    {{-- Judul Halaman --}}
-    <div class="text-center mb-5">
-        <h1 class="display-5 fw-bold">Layanan Profesional Kami</h1>
-        <p class="lead">Solusi lengkap untuk kebutuhan jaringan telekomunikasi Anda.</p>
-    </div>
-
     {{-- Baris Layanan --}}
     <div class="row g-4">
 

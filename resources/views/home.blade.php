@@ -19,7 +19,7 @@
 
             {{-- Tombol Call to Action untuk mengarahkan pengunjung --}}
             <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-                <a href="/service" class="btn btn-primary btn-lg px-4 gap-3">Lihat Layanan Kami</a>
+                <a href="/service" class="btn btn-outline-secondary btn-lg px-4 gap-3">Lihat Layanan Kami</a>
                 <a href="/contact" class="btn btn-outline-secondary btn-lg px-4">Hubungi Kami</a>
             </div>
         </div>
