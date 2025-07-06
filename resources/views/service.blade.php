@@ -75,10 +75,10 @@
     </div>
 
     {{-- Bagian Call to Action --}}
-    <div class="text-center mt-5 p-4 bg-light rounded">
+    <div class="text-center mt-5 p-4 rounded cta-gradient">
         <h2>Siap Meningkatkan Jaringan Anda?</h2>
         <p class="lead">Diskusikan kebutuhan proyek Anda dengan tim ahli kami untuk mendapatkan solusi yang paling tepat dan efisien.</p>
-        <a href="/contact" class="btn btn-primary btn-lg">Hubungi Kami</a>
+        <a href="/contact" class="btn btn-light btn-lg fw-bold">Hubungi Kami</a>
     </div>
 
 </div>

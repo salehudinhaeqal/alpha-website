@@ -28,3 +28,17 @@
     padding-left: 12px;      /* Menambah sedikit jarak di kiri */
     padding-right: 12px;     /* Menambah sedikit jarak di kanan */
 }
+
+/* Class baru untuk background gradient pada Call to Action */
+.cta-gradient {
+    /* Membuat background gradien dari warna biru ke hijau */
+    background: linear-gradient(45deg, #0d6efd, #198754);
+    
+    /* Mengubah warna semua teks di dalamnya menjadi putih agar mudah dibaca */
+    color: #ffffff;
+}
+
+/* Pastikan heading dan paragraf di dalamnya juga berwarna putih */
+.cta-gradient h2, .cta-gradient .lead {
+    color: #ffffff;
+}
